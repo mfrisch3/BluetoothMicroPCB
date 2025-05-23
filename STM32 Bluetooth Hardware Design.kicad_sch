@@ -144,6 +144,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_ST_STM32WB:STM32WB55CEUx"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1674,6 +1836,12 @@
 		(color 0 0 0 0)
 		(uuid "fd067c06-67f9-4d48-87fa-9278f8c849d6")
 	)
+	(junction
+		(at 214.63 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feaf3af4-58d3-4c57-a25a-99206729a2a8")
+	)
 	(wire
 		(pts
 			(xy 160.02 63.5) (xy 160.02 67.31)
@@ -1756,6 +1924,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 80.01) (xy 220.98 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eaac300-51d1-4965-8bc8-05c67abebfdd")
+	)
+	(wire
+		(pts
 			(xy 160.02 148.59) (xy 162.56 148.59)
 		)
 		(stroke
@@ -1773,6 +1951,16 @@
 			(type default)
 		)
 		(uuid "290fe889-a3a4-4f23-814f-7d06db5cfa36")
+	)
+	(wire
+		(pts
+			(xy 185.42 80.01) (xy 190.5 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f00ddd-08ec-4867-b6af-6c2243668e9e")
 	)
 	(wire
 		(pts
@@ -1876,6 +2064,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 80.01) (xy 201.93 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662f0d9e-314e-43f8-ae4c-09c42489bda3")
+	)
+	(wire
+		(pts
 			(xy 165.1 63.5) (xy 165.1 67.31)
 		)
 		(stroke
@@ -1883,6 +2081,16 @@
 			(type default)
 		)
 		(uuid "728fd011-eeb7-418e-a71a-f19663d8f529")
+	)
+	(wire
+		(pts
+			(xy 185.42 92.71) (xy 214.63 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d908da-ce13-455c-8fd1-56b853b4bf8c")
 	)
 	(wire
 		(pts
@@ -1956,6 +2164,16 @@
 	)
 	(wire
 		(pts
+			(xy 209.55 80.01) (xy 214.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac12fc3c-6485-4590-a8c2-a5bea539fc9a")
+	)
+	(wire
+		(pts
 			(xy 160.02 148.59) (xy 160.02 151.13)
 		)
 		(stroke
@@ -1976,6 +2194,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 92.71) (xy 214.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b37c079c-d08b-430e-afce-a17248200b30")
+	)
+	(wire
+		(pts
 			(xy 116.84 49.53) (xy 129.54 49.53)
 		)
 		(stroke
@@ -1983,6 +2211,16 @@
 			(type default)
 		)
 		(uuid "be66c80a-dbfe-41d9-83d6-43cddeb38788")
+	)
+	(wire
+		(pts
+			(xy 220.98 91.44) (xy 220.98 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37f2b6c-5da0-4e48-b55d-3222b4e0dd79")
 	)
 	(wire
 		(pts
@@ -2053,6 +2291,36 @@
 			(type default)
 		)
 		(uuid "fd38e0ec-de10-45b0-b2c8-4c3c5f49b1c2")
+	)
+	(wire
+		(pts
+			(xy 220.98 80.01) (xy 220.98 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd4737f4-17eb-4bfd-813a-c9cf8523b122")
+	)
+	(label "SMPSLX"
+		(at 198.12 80.01 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "595a5ed2-0519-4a47-b235-bd9784d0bfc2")
+	)
+	(label "SMPSLX"
+		(at 185.42 80.01 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "c8cb53c4-a579-417a-8ed8-fd6e1f1efd77")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2321,6 +2589,74 @@
 			(project "STM32 Bluetooth Hardware Design"
 				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 205.74 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47abfc07-8807-40db-b295-bd2e1c0ec2c6")
+		(property "Reference" "L2"
+			(at 205.74 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 205.74 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 205.74 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f4376a5-4f0e-4b66-b455-3c0b601b6039")
+		)
+		(pin "2"
+			(uuid "4567e9ce-ca49-47c2-8356-fe1fceaa59ad")
+		)
+		(instances
+			(project ""
+				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2667,6 +3003,142 @@
 			(project "STM32 Bluetooth Hardware Design"
 				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 220.98 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e4c2328-50c3-4a5c-99ad-7d3de52d6af2")
+		(property "Reference" "#PWR08"
+			(at 220.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 220.98 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a5a1d6c-96d0-417b-9ad7-7f1ad8cd6530")
+		)
+		(instances
+			(project ""
+				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 220.98 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81d88410-3fa4-47a1-a9dc-de28d6cd66ac")
+		(property "Reference" "C11"
+			(at 224.79 83.8199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 224.79 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 221.9452 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 220.98 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eed7e73f-26ac-4b0c-a136-5feb885a6063")
+		)
+		(pin "2"
+			(uuid "ff13b4ea-6c59-49c2-813c-46daf95e03e3")
+		)
+		(instances
+			(project ""
+				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3283,6 +3755,74 @@
 			(project ""
 				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 194.31 80.01 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce7321d9-8831-4639-bd4f-09f1231953c6")
+		(property "Reference" "L1"
+			(at 194.31 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 194.31 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 194.31 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2971d3a2-745e-4074-97b9-024c13c2cdf1")
+		)
+		(pin "2"
+			(uuid "1b4eadc3-3afa-41ce-98ba-e2ea43b0f238")
+		)
+		(instances
+			(project ""
+				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff"
+					(reference "L1")
 					(unit 1)
 				)
 			)
