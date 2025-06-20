@@ -620,6 +620,18 @@
     [
       "f0b13909-4110-4b3c-86aa-329a6cfe69b7",
       "MCU"
+    ],
+    [
+      "874b05d3-d648-43ec-9993-43f48c77f4db",
+      "RF Section"
+    ],
+    [
+      "1e2abb1e-a61e-4f02-b544-b7d6a8e6bbb8",
+      "USB"
+    ],
+    [
+      "fda3b057-34ad-441e-a643-0664d6ad0840",
+      "Power"
     ]
   ],
   "text_variables": {}

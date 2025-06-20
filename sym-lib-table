@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32BluetoothhardwareDesign")(type "KiCad")(uri "${KIPRJMOD}/STM32BluetoothhardwareDesign.kicad_sym")(options "")(descr ""))
+)
