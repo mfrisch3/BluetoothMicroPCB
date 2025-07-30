@@ -1654,12 +1654,6 @@
 		(uuid "755427c5-fbcf-40eb-a08e-5fdb158d6d36")
 	)
 	(junction
-		(at 175.26 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9214aafa-9454-4028-9b36-ef5a1e4c371c")
-	)
-	(junction
 		(at 163.83 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1712,16 +1706,6 @@
 			(type default)
 		)
 		(uuid "1abb63a6-f5c1-44a2-b341-a092f8c89d53")
-	)
-	(wire
-		(pts
-			(xy 168.91 86.36) (xy 175.26 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2486f8b5-c991-42f9-814b-a1c18b4454a5")
 	)
 	(wire
 		(pts
@@ -1915,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 86.36) (xy 181.61 86.36)
+			(xy 168.91 86.36) (xy 181.61 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2237,72 +2221,6 @@
 			(project ""
 				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff/1e2abb1e-a61e-4f02-b544-b7d6a8e6bbb8"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 175.26 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e83f30a-7359-4e22-b91f-4e0659ecded9")
-		(property "Reference" "#FLG03"
-			(at 175.26 84.455 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 175.26 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 175.26 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86305ef2-920f-4a23-8e15-f35ab7595611")
-		)
-		(instances
-			(project "STM32 Bluetooth Hardware Design"
-				(path "/7294b0c1-22f8-4dfa-8bae-2337522835ff/1e2abb1e-a61e-4f02-b544-b7d6a8e6bbb8"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
