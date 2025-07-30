@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "1fb81cf9-c2f1-42cd-9eda-06a27c5f9acb")
+	(uuid "11aa506e-154f-4252-a491-99d684642c87")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030"
@@ -485,45 +485,49 @@
 		)
 		(uuid "e2642587-ba82-48e6-82b9-46190be1b92e")
 	)
-	(label "SWD_NRST"
-		(at 154.94 102.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4a56e0b5-a2b5-4f60-af9b-69024875f102")
-	)
-	(label "SWD_CLK"
+	(hierarchical_label "SWD_CLK"
+		(shape input)
 		(at 154.94 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "69914bcb-7f70-4649-8ac4-ca6d45091b01")
+		(uuid "99ce09b3-3375-459c-9066-58472f0aed95")
 	)
-	(label "SWD_DIO"
-		(at 154.94 110.49 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac3900d8-5f78-43cd-8fda-683cb990ab94")
-	)
-	(label "SWD_TRC"
+	(hierarchical_label "SWD_TRC"
+		(shape input)
 		(at 154.94 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "e92df0b2-3431-408d-87bc-bc2b7db0786c")
+		(uuid "ad0280d5-db5f-47b8-b5fc-d799cc2e0069")
+	)
+	(hierarchical_label "SWD_NRST"
+		(shape input)
+		(at 154.94 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bc398554-a68b-487c-88a4-e7cf51b2d616")
+	)
+	(hierarchical_label "SWD_DIO"
+		(shape input)
+		(at 154.94 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f9c530c1-53b9-4cfb-9c38-a0850f6e78dc")
 	)
 	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030")

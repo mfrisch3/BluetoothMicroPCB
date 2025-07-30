@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "87af1648-384d-4e8d-911e-db7e8171f23c")
+	(uuid "eb7eb4cf-b73d-466e-9c4b-4fd69275f244")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:Conn_Coaxial"
@@ -860,15 +860,16 @@
 		)
 		(uuid "692901df-ba2e-49c8-a063-0ac3156fb2bb")
 	)
-	(label "RF1"
-		(at 66.04 95.25 0)
+	(hierarchical_label "RF1"
+		(shape input)
+		(at 66.04 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "bee72f87-b2af-4915-b87b-4f76d41cc926")
+		(uuid "4b5e8e91-2e45-44a6-be86-ed1a570ce876")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -898,7 +899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.6152 106.68 0)
 			(effects
 				(font
@@ -968,7 +969,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53048-0410_1x04_P1.25mm_Horizontal"
 			(at 179.07 95.25 0)
 			(effects
 				(font
@@ -1036,7 +1037,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 128.27 95.25 0)
 			(effects
 				(font
@@ -1377,7 +1378,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 138.1252 106.68 0)
 			(effects
 				(font
